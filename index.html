@@ -5,17 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>HTML Innlevering 1</title>
 </head>
 <nav>
-    <a href="/index.html">EDEL</a>
-    <a href="/produkter.html">Produkter</a>
-    <a href="/medlemskap.html">Medlemskap</a>
-    <a href="/om_oss.html">Medlemskap</a>
+    <ul class="navbar">
+        <li class="navelement" id="logo"><a href="/index.html">EDEL</a></li>
+        <li class="navelement"><a href="/utleie.html">Utleie</a></li>
+        <li class="navelement"><a href="/produkter.html">Produkter</a></li>
+        <li class="navelement"><a href="/medlemskap.html">Medlemskap</a></li>
+        <li class="navelement"><a href="/om_oss.html">Om oss</a></li>
+        <li class="navelement" id="loginlink"><a href="/">Login</a></li>
+    </ul>
 </nav>
 <body>
-    <p>Vi er EDEL</p>
-
+    <div class="kart">
+        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=hvl%20bergen&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <button id="utleieknapp">
+            <a href="/utleie.html" id="utleieknapp_text">Utleie</a>
+        </button>
+    </div>
 </body>
 <footer>
 

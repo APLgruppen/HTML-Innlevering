@@ -1,0 +1,77 @@
+ .navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+ }
+
+.navelement{
+    display: inline;
+    font-size: 1.5rem;
+    margin-inline: 1rem;
+}
+
+#logo{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#loginlink{
+    float: right;
+}
+a:link {color: #36AA69;}     
+a:visited {color: #36AA69;}   
+a:hover {color: #36AA69;}     
+a:active {color: #36AA69;}    
+a {text-decoration: none;} 
+
+body{
+    background-color: #2F2F2F;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+.kart{
+    position:relative;
+    height:900px;
+    width: 100%;
+    margin: 0 auto
+}
+
+#gmap_canvas{
+    position: absolute;
+    border-radius: 20px;
+    margin: 5%;
+    margin-top: 1%;
+    height: 90%;
+    width: 90%;
+}
+
+#utleieknapp{
+    position: absolute;
+    background-color: #36AA69;
+    bottom: 12%;
+    right: 10%; 
+    height: 35px;
+    width:100px;
+    border-radius: 10px;
+    border-style: hidden;
+}
+#utleieknapp_text{
+    margin: 0 auto; 
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.produktinfo{
+    width: 90%;
+    padding:5%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
