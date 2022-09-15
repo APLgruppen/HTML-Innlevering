@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <title>HTML Innlevering 1</title>
+    <title>Login</title>
 </head>
 <nav>
     <ul class="navbar">
@@ -21,15 +21,25 @@
     </ul>
 </nav>
 <body>
-    <div class="kart">
-        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=hvl%20bergen&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        <button id="utleieknapp">
-            <a href="/utleie.html" id="utleieknapp_text">Utleie</a>
-        </button>
-    </div>
+    <div class="center">
+        <h1>Login</h1>
+        <form method="post">
+          <div class="txt_field">
+            <input type="email" required>
+            <span></span>
+            <label>E-post adresse</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" required>
+            <span></span>
+            <label>Passord</label>
+          </div>
+          <div class="pass">Glemt passord?</div>
+          <input type="submit" value="Login">
+          <div class="signup_link">
+            Ikke medlem? <a href="/medlemskap.html"> Bli medlem</a>
+          </div>
+        </form>
+      </div>>
 </body>
-<footer>
-
-</footer>
 </html>
-
