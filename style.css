@@ -21,7 +21,9 @@
 #loginlink{
     float: right;
 }
-a:link {color: #36AA69;}     
+
+a:link {color: #36AA69;}    
+a:link:hover{color: #28804e;} 
 a:visited {color: #36AA69;}   
 a:hover {color: #36AA69;}     
 a:active {color: #36AA69;}    
