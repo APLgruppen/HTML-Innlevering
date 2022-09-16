@@ -10,26 +10,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>HTML Innlevering 1</title>
 </head>
-<nav>
-    <ul class="navbar">
+<nav id="wrapper">
+    <ul id="navBar">
         <li class="navelement" id="logo"><a href="/index.html">EDEL</a></li>
         <li class="navelement"><a href="/utleie.html">Utleie</a></li>
-        <li class="navelement"><a href="/produkter.html">Produkter</a></li>
         <li class="navelement"><a href="/medlemskap.html">Medlemskap</a></li>
         <li class="navelement"><a href="/om_oss.html">Om oss</a></li>
         <li class="navelement" id="loginlink"><a href="/login.html">Login</a></li>
     </ul>
 </nav>
 <body>
-    <div class="kart">
-        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=hvl%20bergen&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        <button id="utleieknapp">
-            <a href="/utleie.html" id="utleieknapp_text">Utleie</a>
-        </button>
-    </div>
-</body>
-<footer>
+    <section class="kart">
+        <div class="kart">
+            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=hvl%20bergen&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <button id="utleieknapp">
+                <a href="/utleie.html" id="utleieknapp_text">Utleie</a>
+            </button>
+        </div>
+    </section>
 
+    <section class="produktinfo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, placeat cupiditate sed, id maxime itaque eos ducimus odio dolorum maiores sunt iste dignissimos quod quo voluptate nesciunt. Id nisi nulla, consequuntur enim culpa itaque odit!</p>
+    </section>
+
+    <section class="produkter">
+        <div class="produkt-container">
+            <div class="bil">
+                <p id="produkt-tittel">BIL</p>
+                
+            </div>
+            <div class="båt"><p id="produkt-tittel">BÅT</p></div>
+            <div class="elsykkel"><p id="produkt-tittel">ELSYKKEL</p></div>
+     </div>
+    </section>
+
+</body>
+</body>
+
+<footer>
+    <p>KUK<p>
 </footer>
+
 </html>
 

@@ -1,29 +1,41 @@
 *{
     font-family: "Lato", sans-serif;
 }
- .navbar{
+
+ #navbar{
+    padding:0;
+    margin:0;
     list-style-type: none;
     margin: 0;
-    padding: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
  }
 
 .navelement{
     display: inline;
-    font-size: 1.5rem;
-    margin-inline: 1rem;
+    font-size: 1.5em;
+    margin-inline: 1em;
 }
 
 #logo{
     font-family: 'Lato', sans-serif;
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: bolder;
 }
 
 #loginlink{
-    float: right;
+  float:right;
+  padding-right: 3%;
 }
+
+#wrapper {
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
 
 a:link {color: #36AA69;}    
 a:link:hover{color: #28804e;} 
@@ -32,11 +44,19 @@ a:hover {color: #36AA69;}
 a:active {color: #36AA69;}    
 a {text-decoration: none;} 
 
+html, body {
+  margin:0;
+  padding:0;
+  min-width:100%;
+  min-height:100%;
+}
+
 body{
+    margin-top: 5%;
     background-color: #2F2F2F;
     height:100%;
     width:100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .kart{
     position:relative;
@@ -48,10 +68,10 @@ body{
 #gmap_canvas{
     position: absolute;
     border-radius: 20px;
-    margin: 5%;
+    margin: 10%;
     margin-top: 1%;
     height: 85%;
-    width: 90%;
+    width: 80%;
 }
 
 #utleieknapp{
@@ -282,4 +302,8 @@ body{
   }
   .signup_link a:hover{
     text-decoration: underline;
+  }
+
+  #produkt-bilde{
+    width:100%;
   }
