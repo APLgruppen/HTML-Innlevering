@@ -16,7 +16,6 @@
   <nav id="wrapper">
     <ul id="navBar">
       <li class="navelement" id="logo"><a href="/index.html">EDEL</a></li>
-      <li class="navelement"><a href="/utleie.html">Utleie</a></li>
       <li class="navelement"><a href="/medlemskap.html">Medlemskap</a></li>
       <li class="navelement"><a href="/om_oss.html">Om oss</a></li>
       <li class="navelement" id="loginlink"><a href="/login.html">Login</a></li>
@@ -42,15 +41,47 @@
       </p>
     </section>
 
-    <section class="produktinfo" style="margin-bottom: -4%; font-size: 1rem">
-      <h1>Hvor finner du oss:</h1>
-      <h2>Bergen:</h2>
-      <h2>Oslo:</h2>
+    <h1 style="padding-left: 10%; color:white; margin-bottom: -1%; margin-top:4%">Våre utlånssteder:</h1>
+    <section class="utlesteder" style="margin-bottom: -4%; font-size: 1rem">
+
+      <div class="bergen" onclick="location.href='bergen.html';">
+        <h2>Bergen:</h2>
+        <!--
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe width="100%" height="100%" src="https://maps.google.com/maps?q=Thorm%C3%B8hlens%20Gate%2041&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <style>.mapouter{height:100%;width:100%; margin-bottom: 0%;}</style>
+            <style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:75%;}</style>
+          </div>
+        </div>
+      -->
+        <p>Marineholmen, Thormøhlens Gate 41</p>
+        <!--
+        <p>60.38142, 5.32689</p>
+        <p>Du finner oss i bygget ved Marineholmen Gjestebrygge</p>
+        <p>Bilar: 4 Båtar: 1 Sykklar: 10</p>
+        <p>Fasiliteter: </p>
+        <p>Toalett, Dusj, Kiosk, 6Elbil ladere, 2Elbåt ladere. Nærme bynanen.</p>
+        -->
+      </div>
+      <div class="oslo" onclick="location.href='oslo.html';">
+        <h2>Oslo:</h2>
+        <p>Bjørvika, Grønlikaia</p>
+        <!--
+        <p>59.89668, 10.75447</p>
+        <p>Du finner oss ved Circle K Truck Kongshavn</p>
+        <p>Biler: 4 Båter: 1 Sykkler: 10</p>
+        <p>Fasiliteter: </p>
+        <p>Toalett, Dusj, Kiosk, 6Elbil ladere, 2Elbåt ladere. Nærme trikken.</p>
+        -->
+      </div>
+      
     </section>
 
-    <section class="produkter">
+    <h1 style="text-align: center; color: white; margin-top: 5%; margin-bottom: -5%;">Tjenester vi tilbyr</h1>
+      <section class="produkter">
       <div class="produkt-container">
-        <div class="bil" onclick="location.href='utleie.html';">
+        <div class="bil" onclick="location.href='bil.html';">
           <img
             id="produkt-ikon"
             src="./media/icons/car-solid.svg"
@@ -58,7 +89,7 @@
           />
           <p id="produkt-tittel">BIL</p>
         </div>
-        <div class="båt" onclick="location.href='utleie.html';">
+        <div class="båt" onclick="location.href='båt.html';">
           <img
             id="produkt-ikon"
             src="./media/icons/ship-solid.svg"
@@ -66,7 +97,7 @@
           />
           <p id="produkt-tittel">BÅT</p>
         </div>
-        <div class="elsykkel" onclick="location.href='utleie.html';">
+        <div class="elsykkel" onclick="location.href='elsykkel.html';">
           <img
             id="produkt-ikon"
             src="./media/icons/bicycle-solid.svg"
@@ -83,9 +114,9 @@
         <h1>Kontakt oss</h1>
         <h2>Kontor</h2>
         <p>55 19 90 90</p>
-        <p>kontakt@edel.kuk</p>
+        <p>kontakt@edel.no</p>
         <h2>Adresse</h2>
-        <p>Kukveien kuk</p>
+        <p>HVL</p>
       </section>
 
       <section class="tider">
@@ -93,7 +124,7 @@
         <h2>Bergen</h2>
         <p>10:00-17:00</p>
         <h2>Oslo</h2>
-        <p>Aldri</p>
+        <p>10:00-17:00</p>
       </section>
 
       <section class="some">

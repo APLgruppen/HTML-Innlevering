@@ -177,6 +177,22 @@ body{
     grid-area: 1 / 1 / 2 / 2;
     background-color: #36AA69;
 }
+
+.båtdeling{
+  text-align: center;
+  position: relative;
+  border-radius: 15px;
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: #36AA69;
+}
+
+.totaldeling{
+  text-align: center;
+  position: relative;
+  border-radius: 15px;
+  grid-area: 1 / 3 / 2 / 4;
+  background-color: #36AA69;
+}
 #medlemskap-tittel{
     position: absolute;
     width:100%;
@@ -187,11 +203,25 @@ body{
     font-size: 3rem;
     font-weight: bolder;
 }
-#velg-medlemskap{
+#velg-medlemskap-bil{
     text-align: center;
     width: 100%;
     grid-area: 2 / 1 / 3 / 2;
     border-style: hidden;
+}
+
+#velg-medlemskap-båt{
+    text-align: center;
+    width: 100%;
+    grid-area: 2 / 2 / 3 / 3;
+    border-style: hidden;
+}
+
+#velg-medlemskap-total{
+  text-align: center;
+  width: 100%;
+  grid-area: 2 / 3 / 3 / 4;
+  border-style: hidden;
 }
 
 #velg-knapp{
@@ -360,3 +390,35 @@ body{
     width: 100%;
     grid-area: 1/3/2/4;
   }
+
+
+  .utlesteder{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    display: grid;
+    width: 80%;
+    padding:10%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+
+.bergen{
+  grid-area: 1/1/2/2;
+}
+
+.oslo{
+  grid-area: 2/1/3/2;
+}
+
+.bilde{
+  grid-area: 1/2/2/3;
+}
+#bilde_id{
+  object-fit: cover;
+  max-width: 100%;
+  height: auto; 
+}
