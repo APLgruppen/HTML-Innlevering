@@ -420,12 +420,14 @@ body{
   padding-top: 15%;
   grid-area: 1/2/2/3;
 }
+
 #bilde_id{
   object-fit: cover;
   max-width: 100%;
   height: auto; 
 }
 
+<<<<<<< HEAD
 .om_oss{
   width: 80%;
   padding-left: 10%;
@@ -439,4 +441,20 @@ body{
 
 #spec{
   padding: 2%;
+=======
+#rcorners1 {
+  border-radius: 30px 30px 30px 30px;
+  background: #36AA69;
+  padding: 20px; 
+  width: 50%;
+  height: 66%; 
+  float: left;
+}
+
+.img-container {
+  float: left;
+  width: fit-content; /* three containers (use 25% for four, and 50% for two, etc) */
+  padding: 20px; /* if you want space between the images */
+  border-radius: 30px 30px 30px 30px;
+>>>>>>> 1c052446650416ce3882481a7fd882d932f440ca
 }
