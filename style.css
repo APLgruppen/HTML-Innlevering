@@ -412,11 +412,15 @@ input[type="submit"]:hover {
   font-size: 2rem;
   padding-bottom: 10%;
 }
+
+.sted_btn {  
+  padding: 2%;
+}
+
 .sted_btn:hover {
   background-color: rgb(95, 92, 92);
   border-radius: 25px;
   width: 100%;
-  padding: 2%;
   height: fit-content;
 }
 
