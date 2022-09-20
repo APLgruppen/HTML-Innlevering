@@ -417,8 +417,25 @@ body{
 .bilde{
   grid-area: 1/2/2/3;
 }
+
 #bilde_id{
   object-fit: cover;
   max-width: 100%;
   height: auto; 
+}
+
+#rcorners1 {
+  border-radius: 30px 30px 30px 30px;
+  background: #36AA69;
+  padding: 20px; 
+  width: 50%;
+  height: 66%; 
+  float: left;
+}
+
+.img-container {
+  float: left;
+  width: fit-content; /* three containers (use 25% for four, and 50% for two, etc) */
+  padding: 20px; /* if you want space between the images */
+  border-radius: 30px 30px 30px 30px;
 }
