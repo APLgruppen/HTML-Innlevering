@@ -438,3 +438,7 @@ body{
 #spec{
   padding: 2%;
 }
+
+.blimedlemknapp:hover{
+  color:#36AA69;
+}
