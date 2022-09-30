@@ -1,107 +1,92 @@
 <!DOCTYPE html>
 <html lang="no">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-      rel="stylesheet"
-    />
-    <title>Bergen</title>
-  </head>
-  <nav id="wrapper">
-    <ul id="navBar">
-      <li class="navelement" id="logo"><a href="index.html">EDEL</a></li>
-      <li class="navelement"><a href="medlemskap.html">Medlemskap</a></li>
-      <li class="navelement"><a href="om_oss.html">Om oss</a></li>
-      <li class="navelement" id="loginlink"><a href="login.html">Login</a></li>
-    </ul>
-  </nav>
-  <body>
-    <h1
-      style="
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+	<title>Bergen</title>
+</head>
+<nav id="wrapper">
+	<ul id="navBar">
+		<li class="navelement" id="logo"><a href="index.html">EDEL</a></li>
+		<li class="navelement"><a href="medlemskap.html">Medlemskap</a></li>
+		<li class="navelement"><a href="om_oss.html">Om oss</a></li>
+		<li class="navelement" id="loginlink"><a href="login.html">Login</a></li>
+	</ul>
+</nav>
+
+<body>
+	<h1 style="
         padding-left: 10%;
         color: white;
         margin-bottom: -1%;
         margin-top: 4%;
-      "
-    >
+      ">
       Bergen:
     </h1>
-    <section class="utlesteder" style="margin-bottom: -4%">
-      <div class="stedinfo">
-        <h2>Adresse</h2>
-        <p>Marineholmen, Thormøhlens Gate 41</p>
-        <p>60.38142, 5.32689</p>
-        <p>Du finner oss i bygget ved Marineholmen Gjestebrygge</p>
+	<section class="utlesteder" style="margin-bottom: -4%">
+		<div class="stedinfo">
+			<h2>Adresse</h2>
+			<p>Marineholmen, Thormøhlens Gate 41</p>
+			<p>60.38142, 5.32689</p>
+			<p>Du finner oss i bygget ved Marineholmen Gjestebrygge</p>
+			<h2>Hva vi tilbyr</h2>
+			<p>Biler: 4
+				<br />Båter: 1
+				<br />Sykler: 10</p>
+			<h2>Fasiliteter</h2>
+			<p> Toalett, Dusj, Kiosk, 6 Elbil-ladere, 2 Elbåt-ladere, og Gangavstand til bybanen. </p>
+		</div>
+		<div class="mapouter">
+			<div class="gmap_canvas">
+				<iframe width="100%" height="100%" src="https://maps.google.com/maps?q=Thorm%C3%B8hlens%20Gate%2041&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				<style>
+				.mapouter {
+					height: 100%;
+					width: 100%;
+					margin-bottom: 0%;
+					grid-area: 1/2/2/3;
+				}
+				</style>
+				<style>
+				.gmap_canvas {
+					overflow: hidden;
+					background: none !important;
+					height: 100%;
+					width: 75%;
+				}
+				</style>
+			</div>
+		</div>
+	</section>
+</body>
+<footer>
+	<div class="fot">
+		<section class="kontaktoss">
+			<h1>Kontakt oss</h1>
+			<h2>Kontor</h2>
+			<p>55 19 90 90</p>
+			<p>kontakt@edel.no</p>
+			<h2>Adresse</h2>
+			<p>HVL</p>
+		</section>
+		<section class="tider">
+			<h1>Åpningstider</h1>
+			<h2>Bergen</h2>
+			<p>10:00-17:00</p>
+			<h2>Oslo</h2>
+			<p>Aldri</p>
+		</section>
+		<section class="some">
+			<h1>Følg oss på sosiale medier</h1>
+			<p>Place holder</p>
+		</section>
+	</div>
+</footer>
 
-        <h2>Hva vi tilbyr</h2>
-        <p>Biler: 4 <br />Båter: 1 <br />Sykler: 10</p>
-        <h2>Fasiliteter</h2>
-        <p>
-          Toalett, Dusj, Kiosk, 6 Elbil-ladere, 2 Elbåt-ladere, og Gangavstand til
-          bybanen.
-        </p>
-      </div>
-
-      <div class="mapouter">
-        <div class="gmap_canvas">
-          <iframe
-            width="100%"
-            height="100%"
-            src="https://maps.google.com/maps?q=Thorm%C3%B8hlens%20Gate%2041&t=k&z=17&ie=UTF8&iwloc=&output=embed"
-            frameborder="0"
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
-          ></iframe>
-          <style>
-            .mapouter {
-              height: 100%;
-              width: 100%;
-              margin-bottom: 0%;
-              grid-area: 1/2/2/3;
-            }
-          </style>
-          <style>
-            .gmap_canvas {
-              overflow: hidden;
-              background: none !important;
-              height: 100%;
-              width: 75%;
-            }
-          </style>
-        </div>
-      </div>
-    </section>
-  </body>
-  <footer>
-    <div class="fot">
-      <section class="kontaktoss">
-        <h1>Kontakt oss</h1>
-        <h2>Kontor</h2>
-        <p>55 19 90 90</p>
-        <p>kontakt@edel.no</p>
-        <h2>Adresse</h2>
-        <p>HVL</p>
-      </section>
-
-      <section class="tider">
-        <h1>Åpningstider</h1>
-        <h2>Bergen</h2>
-        <p>10:00-17:00</p>
-        <h2>Oslo</h2>
-        <p>Aldri</p>
-      </section>
-
-      <section class="some">
-        <h1>Følg oss på sosiale medier</h1>
-        <p>Place holder</p>
-      </section>
-    </div>
-  </footer>
 </html>
