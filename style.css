@@ -13,6 +13,20 @@
 	font-family: "Lato", sans-serif;
 }
 
+.ftr{
+	position: absolute; 
+	bottom: 0; 
+	width: 100%; 
+	height: 50px;
+}
+
+.pris{
+	position: absolute;
+    bottom: 0%;
+    text-align: center;
+    width: 100%;
+}
+
 #navbar {
 	position: absolute;
 	top: 0px;
@@ -429,10 +443,11 @@ input[type="submit"]:hover {
 	display: grid;
 	width: 80%;
 	padding: 10%;
-	padding-top: 1%;
+	padding-top: 2%;
 	padding-bottom: 0.5%;
 	color: var(--colorOffWhite);
 	font-size: 2rem;
+	margin-bottom: -2%;
 }
 
 .stedinfo {
@@ -481,4 +496,12 @@ input[type="submit"]:hover {
 
 .blimedlemknapp:hover {
 	color: var(--colorPrimary);
+}
+
+.tittel {
+	text-align: center;
+	color: white;
+	margin-bottom: 1%;
+	margin-top: 4%;
+	font-size: 3rem;
 }
