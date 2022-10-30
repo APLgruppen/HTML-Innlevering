@@ -1,12 +1,12 @@
 :root {
   /* Primary */
-	--colorPrimary: #36aa69;
+	--colorPrimary: #00dc5f;
 	/* Secondary */
-	--colorSecondary: #55c987;
+	--colorSecondary: #00c957;
 	/* OffWhite */
 	--colorOffWhite: rgb(247, 233, 233);
   	/* Dark Background */
-	--colorDark: #2f2f2f;
+	--colorDark: #666565;
 }
 
 * {
