@@ -247,7 +247,7 @@ body {
 	text-align: center;
 	position: relative;
 	width: 100%;
-	color: #00ff6e;
+	color: var(--colorPrimary);
 	font-size: 3rem;
 	font-weight: bolder;
 }
