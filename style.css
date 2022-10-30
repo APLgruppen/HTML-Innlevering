@@ -227,13 +227,17 @@ body {
 }
 
 .medlemskap {
-	padding-top: 5%;
+	padding-top: 1%;
 	text-align: center;
 	position: relative;
 	border-radius: 15px;
 	font-size: 1.5rem;
 	height: 80%;
 	background-color: var(--colorPrimary);
+}
+
+.pris{
+	margin-bottom: 5%;
 }
 
 .bildeling {
@@ -252,7 +256,7 @@ body {
 	text-align: center;
 	position: relative;
 	width: 100%;
-	color: var(--colorSecondary);
+	color: var(--colorOffWhite);
 	font-size: 3rem;
 	font-weight: bolder;
 }
