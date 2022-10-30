@@ -2,7 +2,7 @@
 	
   	/* Primary */
 	/*--colorPrimary: #000000;*/
-	--colorPrimary: #16a152;
+	--colorPrimary: #008038;
 	/* Secondary */
 	/*--colorSecondary: #a4a4a4;*/
 	--colorSecondary: #a3fac9;
@@ -313,7 +313,7 @@ form .txt_field {
 	width: 100%;
 	padding: 0 5px;
 	height: 40px;
-	font-size: 16px;
+	font-size:2rem;
 	border: none;
 	background: none;
 	outline: none;
@@ -325,7 +325,7 @@ form .txt_field {
 	left: 5px;
 	color: var(--colorPrimary);
 	transform: translateY(-50%);
-	font-size: 16px;
+	font-size: 1.25rem;
 	pointer-events: none;
 	transition: 0.5s;
 }
@@ -354,7 +354,8 @@ form .txt_field {
 
 .pass {
 	margin: -5px 0 20px 5px;
-	color: var(--colorPrimary);
+	color: var(--colorBackGround);
+	font-size: 1.25rem;
 	cursor: pointer;
 }
 
@@ -384,11 +385,11 @@ input[type="submit"]:hover {
 	margin: 30px 0;
 	text-align: center;
 	font-size: 16px;
-	color: var(--colorPrimary);
+	color: var(--colorBackGround);
 }
 
 .signup_link a {
-	color: var(--colorPrimary);
+	color: var(--colorBackGround);
 	text-decoration: none;
 }
 
