@@ -1,13 +1,16 @@
 :root {
   /* Primary */
-	--colorPrimary: #00dc5f;
+	--colorPrimary: #000000;
 	/* Secondary */
-	--colorSecondary: #00c957;
+	--colorSecondary: #00ff6e;
 	/* OffWhite */
-	--colorOffWhite: rgb(247, 233, 233);
+	--colorOffWhite: rgb(255, 0, 0);
   	/* Dark Background */
-	--colorDark: #666565;
+	--colorDark: #ffffff;
 }
+
+
+
 
 * {
 	font-family: "Lato", sans-serif;
