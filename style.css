@@ -497,7 +497,7 @@ input[type="submit"]:hover {
 
 .tittel {
 	text-align: center;
-	color: white;
+	color: var(--colorPrimary);
 	margin-bottom: 1%;
 	margin-top: 4%;
 	font-size: 3rem;
